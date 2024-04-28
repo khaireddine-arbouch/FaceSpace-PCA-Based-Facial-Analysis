@@ -19,6 +19,8 @@ FaceSpace is an advanced project focusing on Principal Component Analysis (PCA) 
 
 ### Libraries Used
 - NumPy
+- Pandas
+- Seaborn
 - Matplotlib
 - PIL (Pillow)
 - scikit-learn
@@ -26,13 +28,13 @@ FaceSpace is an advanced project focusing on Principal Component Analysis (PCA) 
 ### Setup
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/khaireddine-arbouch/FaceSpace.git
+   git clone https://github.com/khaireddine-arbouch/FaceSpace-PCA-Based-Facial-Analysis.git
    cd FaceSpace
    ```
 
 2. **Install required Python packages**:
    ```bash
-   pip install numpy matplotlib pillow scikit-learn
+   pip install numpy matplotlib pillow scikit-learn seaborn scikit-image
    ```
 
 3. **Download the CelebA dataset**:
@@ -55,5 +57,3 @@ python pca_facial_recognition.py
 ## Acknowledgments
 - Dr. Fatih Kahraman, Dr. Binnur Kurt, and Bahçeşehir University's Engineering Department for their guidance and resources.
 - The creators of the CelebA dataset for providing a rich dataset for academic and research purposes.
-
----
